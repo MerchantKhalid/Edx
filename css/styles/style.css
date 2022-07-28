@@ -2,3 +2,27 @@
     display: flex;
     justify-content: space-around;
 }
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/donation13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.worlds{
+    color:darkred;
+    font-family: 'Fira Sans', sans-serif;
+}
+.start{
+    color: blueviolet;
+    font-family: 'Fira Sans', sans-serif;
+
+}
